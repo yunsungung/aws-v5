@@ -50,4 +50,4 @@ jobs:
           environment_name: Aws-v5-beanstalk-env # 엘리스틱 빈스톡 환경 이름!
           version_label: aws-v5-${{steps.current-time.outputs.formattedTime}}
           region: ap-northeast-2
-          deployment_package: deploy/deploy.zip
+          deployment_package: deploy/deploy.zip 
